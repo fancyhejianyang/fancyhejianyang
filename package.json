@@ -1,0 +1,21 @@
+{
+  "version": "1.1.0",
+  "private": true,
+  "name": "rdk",
+  "main": "index.js",
+  "dependencies": {
+    "hat": "0.0.3",
+    "lodash": "^4.0.0",
+    "mkdirp": "^0.5.0",
+    "string.prototype.startswith": "^0.2.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "protractor": "^3.1.1"
+  },
+  "scripts" : {
+    "protractor": "protractor protractor-conf.js",
+    "protractor_debug" : "protractor debug protractor-conf.js"
+  }
+
+}
